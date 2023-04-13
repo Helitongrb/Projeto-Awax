@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-------------LINKS---------->
+    
+    <link rel="stylesheet" href="../Projeto-Awax/assetes/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Passion+One&display=swap" rel="stylesheet">
+
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu-opener").addEventListener("click", function(){
+                if(document.querySelector(".menu nav").style.display == 'flex'){
+                    document.querySelector(".menu nav").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav").style.display = 'flex';
+                }
+            });
+        };
+
+    </script>
+
+    <title>Projeto Awax</title>
+</head>
+<body>
+    <header>
+        <div class="containerH">
+        
+            <div class="logo">
+                <img src="assetes/icones/estrela.png" alt="logo">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">OUR PROJECTS</a></li>
+                        <li><a href="#">OUR TEAM</a></li>
+                        <li><a href="#">HAPPY CLIENTS</a></li>
+                        <li><a href="#">PRICE</a></li>
+                        <li><a href="#">SOME FACTS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <img class="menu-opener" src="assetes/icones/menu.png" alt="menu">
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="sliders">
+                <div class="slide">
+                    <div class="slidearea">
+                        <h1>Design is about <br> <span>Communication</span>
+                        </h1>
+                        <h2>Call us: +00 0 1234 567</h2>
+                        <a href="">Get in touch!</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slidearea">
+                        <h1>Design is about <br> <span>Teste</span>
+                        </h1>
+                        <h2>Call us: +00 0 1234 567</h2>
+                        <a href="">Get in touch!</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slidearea">
+                        <h1>Design is about <br> <span>Algo</span>
+                        </h1>
+                        <h2>Call us: +00 0 1234 567</h2>
+                        <a href="#">Get in touch!</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sliders-pointers">
+                <div class="pointer active"></div>
+                <div class="pointer"></div>
+                <div class="pointer"></div>
+            </div>
+
+        </section>
+
+        <section class="default light">
+            <div class="section-title">About us</div>
+            <div class="section-desc">Who we are?</div>
+            <div class="section-body">
+                <div  class="section-aboutus">
+                    <div class="section-aboutus--left">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit delectus reiciendis accusamus. Nostrum ex minus exercitationem laborum commodi. Laudantium molestias fugiat cumque repudiandae repellendus quidem expedita iusto mollitia itaque quaerat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae placeat autem ipsa dicta repudiandae rerum, in, ut ratione natus pariatur inventore vero, totam consequatur architecto sint omnis dignissimos dolor.</p>
+                        <a href="#" class="button">learn more</a>
+                    </div>
+                    <div class="section-aboutus--right">
+                        <img src="assetes/IMAGENS/foto9.jpg" alt="foto9">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="default dark">
+            <div class="section-title">Services</div>
+            <div class="section-desc">Services that we provide</div>
+            <div class="section-body">
+                <div class="section-services">
+                    <div class="section-service">
+                        <img src="assetes/icones/medalha.png" alt="medalha">
+                        <h4>High quality design</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assetes/icones/estrela.png" alt="estrela">
+                        <h4>Modern desing</h4>
+                        <p>Lorem ipsum dolor sit amet dolor sit amet/p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assetes/icones/relogio.png" alt="Relogio">
+                        <h4>Regular updates</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assetes/icones/balao.png" alt="balao">
+                        <h4>fast and free suporte</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="default light">
+            <div class="section-title">Our Project</div>
+            <div class="section-desc">What we create</div>
+            <div class="section-body">
+                <div class="section-projects">
+                    <div class="section-projects--filters">
+                        <ul>
+                            <li>All</li>
+                            <li class="active">Photos</li>
+                            <li>Brading</li>
+                            <li>Adverts</li>
+                            <li>Development</li>
+                            <li>Misc</li>
+                        </ul>
+                    </div>
+                    <div class="section-projects--photos">
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                </div>
+                                <img src="assetes/IMAGENS/foto1.jpg" alt="ft1">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                </div>
+                                <img src="assetes/IMAGENS/foto2.jpg" alt="ft2">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                </div>
+                                <img src="assetes/IMAGENS/foto3.jpg" alt="ft3">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                </div>
+                                <img src="assetes/IMAGENS/foto4.jpg" alt="ft4">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                </div>
+                                <img src="assetes/IMAGENS/foto5.jpg" alt="ft5">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                            <div class="section-projects--photoarea">
+                                <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                </div>
+                                <img src="assetes/IMAGENS/foto6.jpg" alt="ft6">
+                            </div>
+                        </div>
+                        <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                    </div>
+                                    <img src="assetes/IMAGENS/foto1.jpg" alt="ft1">
+                                </div>
+                        </div>
+                        <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                    </div>
+                                    <img src="assetes/IMAGENS/foto2.jpg" alt="ft2">
+                                </div>
+                        </div>
+                        <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                    </div>
+                                    <img src="assetes/IMAGENS/foto3.jpg" alt="ft3">
+                                </div>
+                        </div>
+                        <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                    </div>
+                                    <img src="assetes/IMAGENS/foto4.jpg" alt="ft4">
+                                </div>
+                        </div>
+                        <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                    </div>
+                                    <img src="assetes/IMAGENS/foto5.jpg" alt="ft5">
+                                </div>
+                        </div>
+                        <div class="section-projects--photo">
+                                <div class="section-projects--photoarea">
+                                    <div class="section-projects--photoinfo">
+                                    <h5>ABOUT</h5>
+                                    <p>Lorem ipsum dolor sit amet  </p>
+                                    </div>
+                                    <img src="assetes/IMAGENS/foto6.jpg" alt="ft6">
+                                </div>
+                        </div>
+                    
+                    
+                </div>
+                <a href="#" class="button">More projects</a>
+            </div>
+
+        </section>
+
+        <section class="default dark bg--team">
+            <div class="section-team-area">
+                <div class="section-title">Our team</div>
+                <div class="section-desc">Our Co-Workers</div>
+                <div class="section-body">
+                    <div class="section-team">
+                        <div class="sliders">
+                            <div class="slide">
+                                <div class="slidearea">
+                                   <img class="section-team--avatar" src="assetes/IMAGENS/mulher1.png" alt="mulher1">
+                                    <div class="section-team--name">Jane doe</div>
+                                    <div class="section-team--role">Master mind</div>
+                                    <div class="section-team--social">
+                                        <a href="#"> <img src="assetes/icones/facebook.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/googleplus.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/linkedin.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/twitter.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/pinterest.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slidearea">
+                                    <img class="section-team--avatar" src="assetes/IMAGENS/homem1.png" alt="homem1">
+                                    <div class="section-team--name">Mike shiller</div>
+                                    <div class="section-team--role">Creative head</div>
+                                    <div class="section-team--social">
+                                        <a href="#"> <img src="assetes/icones/facebook.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/googleplus.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/linkedin.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/twitter.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/pinterest.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slidearea">
+                                    <img class="section-team--avatar" src="assetes/IMAGENS/mulher2.png" alt="mulher2 ">
+                                    <div class="section-team--name">Anna Johns</div>
+                                    <div class="section-team--role">Technical Lead</div>
+                                    <div class="section-team--social">
+                                        <a href="#"> <img src="assetes/icones/facebook.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/googleplus.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/linkedin.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/twitter.png" alt=""></a>
+                                        <a href="#"> <img src="assetes/icones/pinterest.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                    <div class="sliders-pointers">
+                        <div class="pointer active"></div>
+                        <div class="pointer"></div>
+                        <div class="pointer"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="default light">
+            <div class="section-title">Happy clientes</div>
+            <div class="section-desc">Client Reviews</div>
+            <div class="section-body">
+                <div  class="section-happy">
+                    <div class="section-happy--content">
+                        <img src="assetes/IMAGENS/homem2.png" alt="homem2">
+                        <h1>John Doe</h1>
+                        <h5>Head of PR Departament</h5>
+                        <img class="icon" src="assetes/icones/quote.png" alt="quote">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore rem iusto ea iste harum, totam non sunt odio expedita quis quaerat voluptates facilis ullam consequuntur ipsum atque in impedit dolore ipsum atque in impedit.</p>
+                    </div>
+                </div>
+                <div class="sliders-pointers">
+                    <div class="pointer active"></div>
+                    <div class="pointer"></div>
+                    <div class="pointer"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="partners">
+            <div class="partners-container">
+                <div class="partners-icons">
+                    <img src="assetes/IMAGENS/empresa1.png" alt="empresa1">
+                    <img src="assetes/IMAGENS/empresa2.png" alt="empresa2">
+                    <img src="assetes/IMAGENS/empresa3.png" alt="empresa3">
+                    <img class="none" src="assetes/IMAGENS/empresa4.png" alt="empresa4">
+                    <img class="none" src="assetes/IMAGENS/empresa5.png" alt="empresa5">
+                    <img class="none" src="assetes/IMAGENS/empresa6.png" alt="empresa6">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="default light">
+            <div class="section-title">Price</div>
+            <div class="section-desc">Price table</div>
+            <div class="section-body">
+                <div  class="section-price">
+                   <div class="section-price--plans">
+                        <div class="section-price--table">
+                            <h3>EXPRESS</h3>
+                            <h1>$ 9.99</h1>
+                            <p>/ MONTH</p>
+                            <ul>
+                                <li>Tracking issues</li>
+                                <li>Add bugs through email</li>
+                                <li>Notifications</li>
+                                <li>Time Tracking</li>
+                                <li>Custom views</li>
+                            </ul>
+                            <a href="#" class="button">choose</a>
+                        </div>
+
+                        <div class="section-price--table">
+                            <h3>STANDARD</h3>
+                            <h1>$ 14.99</h1>
+                            <p>/ MONTH</p>
+                            <ul>
+                                <li>Tracking issues</li>
+                                <li>Add bugs through email</li>
+                                <li>Notifications</li>
+                                <li>Time Tracking</li>
+                                <li>Custom views</li>
+                            </ul>
+                            <a href="#" class="button">choose</a>
+                        </div>
+
+                        <div class="section-price--table">
+                            <h3>LUXE</h3>
+                            <h1>$ 19.99</h1>
+                            <p>/ MONTH</p>
+                            <ul>
+                                <li>Tracking issues</li>
+                                <li>Add bugs through email</li>
+                                <li>Notifications</li>
+                                <li>Time Tracking</li>
+                                <li>Custom views</li>
+                            </ul>
+                            <a href="#" class="button">choose</a>
+                        </div>
+
+                        <div class="section-price--table">
+                            <h3>PREMIUM</h3>
+                            <h1>$ 24.99</h1>
+                            <p>/ MONTH</p>
+                            <ul>
+                                <li>Tracking issues</li>
+                                <li>Add bugs through email</li>
+                                <li>Notifications</li>
+                                <li>Time Tracking</li>
+                                <li>Custom views</li>
+                            </ul>
+                            <a href="#" class="button">choose</a>
+                        </div>
+                   </div>
+                </div>
+            </div>
+
+
+            <section class="default light" id="premiumcolor">
+                <div class="section-title">Premium</div>
+                <div class="section-desc">Even more features available</div>
+                <div class="section-body">
+                    <div  class="section-premium">
+                        <div class="section-premium--img">
+                            <img src="assetes/IMAGENS/livros.png" alt="livros">
+                        </div>
+                        <div class="section-premium--content">
+                            <div class="section-premium--contentbox">
+                                <div class="content-check">
+                                    <img src="assetes/icones/check.png" alt="check">
+                                </div>
+                                <div class="content-h1">
+                                    <h1>First feature</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quasi illo earum necessitatibus obcaecati placeat</p>
+                                    <p>- FEATURE ONE <br>
+                                        - FEATURE TWO <br>
+                                        - FEATURE THREE
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="section-premium--contentbox">
+                                <div class="content-check">
+                                    <img src="assetes/icones/check.png" alt="check">
+                                </div>
+                            
+                                <div class="content-h1">
+                                    <h1>Second feature</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur </p>
+                            
+                                </div>
+                            </div>
+                            <div class="section-premium--contentbox">
+                                <div class="content-check">
+                                    <img src="assetes/icones/check.png" alt="check">
+                                </div>
+                            
+                                <div class="content-h1">
+                                    <h1>Third feature</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quasi </p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="premium-pointer">
+                        <div class="sliders-pointers">
+                            <div class="pointer active"></div>
+                            <div class="pointer"></div>
+                            <div class="pointer"></div>
+                        </div>
+
+                        <a href="#" class="button">Get in Touch</a>
+                    </div>
+
+                </div>
+    
+            </section>
+
+            <section class="default dark">
+                <div class="section-title">Some Facts</div>
+                <div class="section-desc">about our work</div>
+                <div class="section-body">
+                    <div class="section-some">
+                        <div class="section-facts">
+                            <h1>1000</h4>
+                            <h2>DESIGN PROJECTS RELEASED</h2>
+                            <p>Lorem ipsum dolor sit amet dolor sit amet</p>
+                        </div>
+                        <div class="section-facts">
+                            <h1>900</h4>
+                            <h2>Photos</h2>
+                            <p>Lorem ipsum dolor sit amet dolor sit amet</p>
+                        </div>
+                        <div class="section-facts">
+                            <h1>500</h4>
+                            <h2>Marketing ideas</h2>
+                            <p>Lorem ipsum dolor sit amet dolor sit amet</p>
+                        </div>
+                        <div class="section-facts">
+                            <h1>100</h4>
+                            <h2>Exhibition</h2>
+                            <p>Lorem ipsum dolor sit amet dolor sit afacts
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </section>
+
+            <section class="social-networks">
+                <div class="networks">
+                    <div class="networks-content">
+                        <img src="assetes/icones/share.png" alt="share">
+                        <h1>TELL ABOUT US:</h1>
+                    </div>
+                    <div class="networks-icons">
+                        <a href=""><img class="social-icons" src="assetes/icones/twitter.png" alt="tt"></a>
+                        <a href="#"><img class="social-icons" src="assetes/icones/facebook.png" alt="face"></a>
+                        <a href="#"><img class="social-icons" src="assetes/icones/linkedin.png" alt="linkedin"></a>
+                        <a href="#"><img class="social-icons" src="assetes/icones/googleplus.png" alt="google"></a>
+                        <a href="#"><img class="social-icons" src="assetes/icones/pinterest.png" alt=""></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="default light">
+                <div class="section-title">Contact us</div>
+                <div class="section-desc">our agency located in melbourne, australia</div>
+                <div class="section-body">
+                    <div  class="section-contactus">
+                        <form class="contactform" action="cadastro.php">
+                            
+                            <fieldset>
+                                <input class="inputbox inputtext" type="text" placeholder="Name">
+
+                                <input class="inputbox inputtext" type="Email" placeholder="Email">
+                            </fieldset>
+
+                            <input class="inputbox2 inputtext" type="text" placeholder="Subject">
+
+                            <input class="inputbox3 inputtext" type="text" placeholder="Message">
+
+                            <input class="button" type="submit" value="SEND MESSAGE">
+
+                        </form>
+                    </div>
+            </section>
+
+            <section class="maps">
+                <iframe id="contact_63e5f4d6c54bc" class="map-container iframeLazyload entered exited loaded" data-src="https://maps-cdn.site123.com/include/globalMapDisplay.php?q=Garopaba%2C+Santa+Catarina%2C+Brazil&z=15&l=en&ilfc=1" frameborder="0" style="pointer-events: none;" data-ll-status="loaded" src="https://maps-cdn.site123.com/include/globalMapDisplay.php?q=Garopaba%2C+Santa+Catarina%2C+Brazil&z=15&l=en&ilfc=1">
+
+                </iframe>
+                <div class="map-content">
+                    <div class="map-contentinfo">
+                        <div class="background-icon">
+                            <img src="assetes/icones/carta.png" alt="carta">
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet </p>
+                    </div>
+                    <div class="map-contentinfo">
+                        <div class="background-icon">
+                            <img src="assetes/icones/localizacao.png" alt="localizacao">
+                        </div>
+                        <p>Rua aderbal ramos 186</p>
+                    </div>
+                    <div class="map-contentinfo">
+                        <div class="background-icon">
+                            <img src="assetes/icones/telefone.png" alt="telefone"></div>
+                        <p>+00 0 0000 0000</p>
+                    </div>
+                    <div class="map-contentinfo">
+                        <div class="background-icon">
+                            <img src="assetes/icones/arroba.png" alt="arroba">
+                        </div>
+                        <p>aleatorio@hotmail.com</p>
+                    </div>
+                    <div class="map-contentinfo">
+                        <div class="background-icon">
+                            <img src="assetes/icones/web.png" alt="web">
+                        </div>
+                        <p>www.aleatorio.com</p>
+                    </div>
+                   
+            </section>
+    </main>
+    <footer class="mfooter">
+        <div class="footer-area">
+            <div class="footer-boxs">
+                <div class="footer-icons--social">
+                    <a href="#"><img class="social-icons" src="assetes/icones/twitter.png" alt="tt"></a>
+                    <a href="#"><img class="social-icons" src="assetes/icones/facebook.png" alt="face"></a>
+                    <a href="#"><img class="social-icons" src="assetes/icones/linkedin.png" alt="linkedin"></a>
+                    <a href="#"><img class="social-icons" src="assetes/icones/googleplus.png" alt="google"></a>
+                    <a href="#"><img class="social-icons" src="assetes/icones/pinterest.png" alt=""></a>
+                </div>
+                <h1>
+                    AWAX ₢ 2016
+                </h1>
+            </div>
+            <div class="footer-boxs none">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, consequuntur. Quidem quam voluptates nostrum. Velit illo reprehenderit in laboriosam obcaecati accusamus quo atque neque corporis reiciendis! Repellendus excepturi mollitia veniam.</p>
+            </div>
+            <div class="footer-boxs none gray">
+                <form action="cadastro.php">
+                    <input class="input-border" type="text" placeholder="EMAIL TO SUBSCRIBE">
+                    <input class="button" type="submit" value="SUBSCRIBE">
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
