@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu-opener").addEventListener("click", function(){
+                if(document.querySelector(".menu nav").style.display == 'none'){
+                    document.querySelector(".menu nav").style.display = 'block';
+                } else {
+                    document.querySelector(".menu nav").style.display = 'none';
+                }
+            });
+        };
+
+    </script>
    
     <!-------------LINKS---------->
     
@@ -12,21 +27,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Passion+One&display=swap" rel="stylesheet">
-
-
-    <script type="text/javascript">
-        window.onload = function() {
-            document.querySelector(".menu-opener").addEventListener("click", function(){
-                if(document.querySelector(".menu nav").style.display == 'flex'){
-                    document.querySelector(".menu nav").style.display = 'none';
-                } else {
-                    document.querySelector(".menu nav").style.display = 'flex';
-                }
-            });
-        };
-
-    </script>
-
     <title>Projeto Awax</title>
 </head>
 <body>
@@ -66,7 +66,7 @@
                         <a href="">Get in touch!</a>
                     </div>
                 </div>
-                <div class="slide">
+                <div class="slide ">
                     <div class="slidearea">
                         <h1>Design is about <br> <span>Teste</span>
                         </h1>
@@ -74,7 +74,7 @@
                         <a href="">Get in touch!</a>
                     </div>
                 </div>
-                <div class="slide">
+                <div class="slide ">
                     <div class="slidearea">
                         <h1>Design is about <br> <span>Algo</span>
                         </h1>
@@ -292,7 +292,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide">
+                            <div class="slide none">
                                 <div class="slidearea">
                                     <img class="section-team--avatar" src="assetes/IMAGENS/homem1.png" alt="homem1">
                                     <div class="section-team--name">Mike shiller</div>
@@ -306,7 +306,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide">
+                            <div class="slide none">
                                 <div class="slidearea">
                                     <img class="section-team--avatar" src="assetes/IMAGENS/mulher2.png" alt="mulher2 ">
                                     <div class="section-team--name">Anna Johns</div>
